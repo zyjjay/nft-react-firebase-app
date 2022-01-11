@@ -1,0 +1,50 @@
+/* navbar styles */
+.navbar {
+    width: 100%;
+    background: #C4E0F9;
+    /* padding: 20px 10px; */
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    list-style-type: none;
+  }
+
+/* .opensea-logo {
+    margin-right: 900px;
+    cursor: pointer;
+    float: left;
+} */
+
+h1 {
+    margin-right: 850px;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+}
+
+.navbar button, .navbar a {
+    margin-left: 16px;
+}
+
+button {
+    background-color: #67AAF9; /* Blue */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+}

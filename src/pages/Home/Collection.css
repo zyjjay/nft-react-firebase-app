@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+}
+
+button.delete-x{
+    margin-left: 10px;
+    border-radius: 12px;
+    background-color: #E5E8EB;
+    padding: auto;
+    text-align: center;
+    color: black;
+}
+
+.title-container {
+    margin-bottom: 10px;
+}
+
+.nft-list a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  .nft-list a:link {
+    color: #265301;
+  }
+  
+  .nft-list a:visited {
+    color: #437A16;
+  }
+  
+  .nft-list a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  .nft-list a:hover {
+    border-bottom: 0px solid;
+    background: #CDFEAA;
+  }
+  
+  .nft-list a:active {
+    background: #265301;
+    color: #CDFEAA;
+  }
+
+  .nft-item {
+    padding-bottom: 35px;
+  }
+
+  hr {
+    width:63%;
+    margin-left: 0;
+  }

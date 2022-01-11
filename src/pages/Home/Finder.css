@@ -1,0 +1,31 @@
+.finder form {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1868B7;
+
+}
+
+.finder span {
+    margin-right: 10px;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 3px;
+}
+
+.token-label, .address-label {
+    /* margin-bottom: 5px; */
+    display: block;
+    color: white;
+}
+
+.finder input {
+    width: 100%;
+}
+
+.finder button {
+    margin-left: 242px;
+}
+
+.finder h3 {
+    text-align: center;
+}
