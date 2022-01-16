@@ -1,3 +1,9 @@
+# NFTracker
+
+NFTracker is a React web app that allows users to store any NFTs they want to track in one place. Utilizing the OpenSea API to fetch data through query parameters token id and contract address, the NFTs will be stored in the firestore database (Firebase) and displayed if they are logged in. The users can also add or delete any NFT at any time.
+
+Hosted at: https://nft-tracker-2cce7.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
