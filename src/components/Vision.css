@@ -2,3 +2,23 @@
     padding-top: 20px;
     text-align: center;
 }
+
+.carousel {
+    width: fit-content; 
+    align-content: center;
+    justify-content: center; 
+    display: flex;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.content {
+    display: inline-block;
+    flex-direction: row;
+}
+
+.welcome-page h3 {
+    margin: auto;
+}
