@@ -24,10 +24,8 @@ h1 {
     margin-right: 850px;
     margin-bottom: 40px;
     padding-bottom: 0;
-}
-
-.navbar button, .navbar a {
-    margin-left: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
 }
 
 button {
@@ -47,4 +45,12 @@ button {
 .navbar a {
     color: #333;
     text-decoration: none;
+}
+
+.login-btn, .signup-btn {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
 }

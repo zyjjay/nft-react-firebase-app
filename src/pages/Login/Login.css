@@ -1,5 +1,6 @@
 .login-form {
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .login-form .label {
@@ -13,9 +14,12 @@
 }
 
 .login-form input {
-    padding: 1px 1px;
+    padding: 5px;
     font-size: 1em;
     width: 25%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-width: thin;
 }
 
 .login-form button {

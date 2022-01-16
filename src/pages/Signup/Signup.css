@@ -1,5 +1,6 @@
 .signup-form {
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .signup-form .label {
@@ -13,12 +14,19 @@
 }
 
 .signup-form input {
-    padding: 1px 1px;
+    padding: 5px;
     font-size: 1em;
     width: 25%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-width: thin;
 }
 
 .signup-form button {
     display: block;
     margin: 10px auto;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
 }
