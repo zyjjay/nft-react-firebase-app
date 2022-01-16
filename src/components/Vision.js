@@ -1,5 +1,4 @@
 import "./Vision.css"
-import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 
@@ -38,5 +37,3 @@ export default function Vision() {
         </>
     )
 }
-
-// ReactDOM.render(<Vision />, document.querySelector('.demo-carousel'));
