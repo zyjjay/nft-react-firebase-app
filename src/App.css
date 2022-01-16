@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Work Sans', sans-serif;  
 }
 
 .App-logo {
@@ -38,3 +39,6 @@
 }
 
 
+/* p {
+  font-family: 'Work Sans', sans-serif;
+} */

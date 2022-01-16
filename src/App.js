@@ -24,7 +24,7 @@ export default function App() {
             {!user && <Vision />}
           </>
           }/>
-          <Route path="/login" element={
+          {/* <Route path="/login" element={
             <>
               {user && <Navigate to="/" />}
               {!user && <Login />}
@@ -35,7 +35,7 @@ export default function App() {
               {user && <Navigate to="/" />}
               {!user && <Signup />}
             </>
-          } />
+          } /> */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>

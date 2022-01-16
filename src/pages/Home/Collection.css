@@ -2,53 +2,54 @@ ul {
     list-style-type: none;
 }
 
-button.delete-x{
+.nft-item .delete-x{
     margin-left: 10px;
-    border-radius: 12px;
-    background-color: #E5E8EB;
-    padding: auto;
+    background-color: transparent;
+    border: none;
     text-align: center;
-    color: black;
+    color: grey;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .title-container {
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .nft-list a {
     outline: none;
     text-decoration: none;
     padding: 2px 1px 0;
-  }
-  
-  .nft-list a:link {
-    color: #265301;
-  }
-  
-  .nft-list a:visited {
-    color: #437A16;
-  }
-  
-  .nft-list a:focus {
-    border-bottom: 1px solid;
-    background: #BAE498;
-  }
-  
-  .nft-list a:hover {
-    border-bottom: 0px solid;
-    background: #CDFEAA;
-  }
-  
-  .nft-list a:active {
-    background: #265301;
-    color: #CDFEAA;
+    color: #2081E2
   }
 
   .nft-item {
-    padding-bottom: 35px;
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: #e6e6e6;
+    padding: 30px;
+    border-radius: 8px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
 
-  hr {
-    width:63%;
-    margin-left: 0;
+  .nft-item img {
+    max-width: 300px;
+    border-radius: 3%;
+  }
+
+  img.eth-logo {
+    max-width: 12px;
+  }
+
+  .nft-description {
+    font-size: 20px;
   }

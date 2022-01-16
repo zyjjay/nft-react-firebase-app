@@ -1,15 +1,16 @@
 .finder form {
     padding: 20px;
     border-radius: 12px;
-    background-color: #1868B7;
-
+    background-color: #2081E2;
+    margin-top: 16px;
 }
 
 .finder span {
     margin-right: 10px;
     display: block;
     overflow: hidden;
-    padding-bottom: 3px;
+    margin-bottom: 8px;
+
 }
 
 .token-label, .address-label {
@@ -19,11 +20,29 @@
 }
 
 .finder input {
-    width: 100%;
+    width: 95%;
+    border-width: 0;
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 8px;
 }
 
 .finder button {
-    margin-left: 242px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #E5E8EB;
+
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
 }
 
 .finder h3 {

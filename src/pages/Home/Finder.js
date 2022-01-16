@@ -45,9 +45,9 @@ export default function Finder(props) {
     }
 
     useEffect(() => {
-        // console.log(token_id)
-        // console.log(contract_address)
-        // console.log(data)
+        console.log(token_id)
+        console.log(contract_address)
+        console.log(data)
         if(response.success) {
             setToken_id('')
             setContract_address('')
@@ -56,7 +56,6 @@ export default function Finder(props) {
 
     return (
         <div className="finder">
-            <h3 className="title">Add an NFT</h3>
             <form onSubmit={handleSubmit}>
                 <label className="token-label">
                     <span>Token ID</span>

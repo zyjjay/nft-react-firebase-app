@@ -23,7 +23,7 @@ export default function Signup() {
 
     return (
         <form className="signup-form" onSubmit={handleSubmit}>
-            <h2>Sign Up</h2>
+            {/* <h2>Sign Up</h2> */}
             <label>
                 <span>Display Name:</span>
                 <input 
@@ -51,7 +51,7 @@ export default function Signup() {
 
             { !isPending && <button className='btn'>Sign Up</button> }
             { isPending && <button className='btn' disabled>Loading</button> }
-            { error && <p>{error}</p> }
+            { error && <p style={ {color: "#BA5C12"} }>{error}</p> }
         </form>
     )
 }

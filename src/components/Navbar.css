@@ -28,10 +28,10 @@ h1 {
     font-weight: 700;
 }
 
-button {
-    background-color: #67AAF9; /* Blue */
+.navbar button {
+    background-color: transparent; /* Blue */
     border: none;
-    color: white;
+    color: black;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -39,6 +39,12 @@ button {
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 
@@ -47,10 +53,6 @@ button {
     text-decoration: none;
 }
 
-.login-btn, .signup-btn {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
-    margin-right: 10px;
-    padding: 10px;
-    border-radius: 4px;
-}
+/* .login-btn, .signup-btn {
+    
+} */

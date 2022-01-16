@@ -15,7 +15,7 @@ export default function Login() {
 
     return (
         <form onSubmit={handleSubmit} className="login-form">
-            <h2>Login</h2>
+            {/* <h2>Login</h2> */}
             <label>
                 <span>Email:</span>
                 <input
